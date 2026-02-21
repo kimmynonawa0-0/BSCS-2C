@@ -318,5 +318,12 @@ footer {
     border-color: rgba(255, 255, 255, 0.4);
 
 }
+/* Force mobile photo alignment */
+@media (max-width: 768px) {
+    .photo-container {
+        background-position: 70% center !important;
+    }
+}
+
 
 
