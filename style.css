@@ -31,9 +31,10 @@ body {
 .photo-container {
     width: 100%;
     height: 100%;
-    background-size: cover;
-    background-position: center 30%;   /* change 30% to whatever works */
+    background-size: contain;          /* shows whole photo */
+    background-position: center;
     background-repeat: no-repeat;
+    background-color: #0f172a;         /* dark background for bars */
 }
 
 /* ----- LEFT/RIGHT NAVIGATION ARROWS ----- */
@@ -317,3 +318,4 @@ footer {
     border-color: rgba(255, 255, 255, 0.4);
 
 }
+
