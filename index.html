@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>tara, gym kita🔥</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- LANDING SCREEN (full photo + start button + arrows) -->
+    <div class="landing" id="landing">
+        <div class="photo-container" id="slideshowPhoto"></div>
+
+        <!-- Left/right navigation arrows -->
+        <div class="nav-arrows">
+            <button class="nav-arrow left" id="prevPhoto">❮</button>
+            <button class="nav-arrow right" id="nextPhoto">❯</button>
+        </div>
+
+        <div class="start-wrapper">
+            <button class="start-btn" id="startBtn">START</button>
+        </div>
+    </div>
+
+    <!-- MAIN APP (initially hidden) -->
+    <div class="app" id="app">
+        <div class="container">
+            <h1>🏋️‍♂️ BSCS-2C GYM SQUAD</h1>
+            <div class="subhead">choose your plan</div>
+
+            <div class="choice-box">
+                <button class="gender-btn boy" onclick="showSchedule('boy')">💪 BOYS</button>
+                <button class="gender-btn girl" onclick="showSchedule('girl')">🌸 GIRLS</button>
+            </div>
+
+            <div class="schedule-container" id="scheduleDisplay">
+                <div class="empty-state">
+                    👆 pick a gender to see the workouts
+                </div>
+            </div>
+
+            <footer>
+    <span>karagyat🔥</span>
+    <button class="home-btn" onclick="goHome()">🏠 HOME</button>
+</footer>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
