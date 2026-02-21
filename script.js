@@ -1,8 +1,7 @@
 // ===== SIMPLE LEFT/RIGHT SLIDESHOW =====
 const photoList = [
-    'pic2.jpg',   // <- Fix: use simple names like pic1.jpg, not pic1.img.jpg
-    'pic1.jpg',
-    'pic3.jpg',
+    'pic3.jpg',   // <- Fix: use simple names like pic1.jpg, not pic1.img.jpg
+    'pi1.jpg',
     'pic4.jpg'
 ];
 
@@ -141,4 +140,5 @@ function goHome() {
             👆 pick a gender to see the workouts
         </div>
     `;
+
 }
